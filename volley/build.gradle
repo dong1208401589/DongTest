@@ -1,11 +1,11 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 22
     buildToolsVersion '23.0.0'
 
     defaultConfig {
-        applicationId "com.android.volley"
+
         minSdkVersion 14
         targetSdkVersion 23
         versionCode 1

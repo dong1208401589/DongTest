@@ -2,5 +2,7 @@
     <string name="app_name">ChinaWidthHelp</string>
 
     <string name="downloadmanager">下载apk demo</string>
+    <string name="bind_messgerservice">绑定messagerService</string>
+
     <string name="action_settings">Settings</string>
 </resources>

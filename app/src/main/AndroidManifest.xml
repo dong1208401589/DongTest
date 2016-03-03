@@ -14,8 +14,8 @@
         android:icon="@drawable/ic_launcher"
         android:label= "@string/app_name"
         android:theme="@style/AppTheme.ChinaWidthHelp.Start" >
-        <!--<activity
-            android:name=".activity.MainActivity"
+        <activity
+            android:name=".ui.MainActivity"
             android:label="@string/app_name"
             android:hardwareAccelerated="@bool/useHardwareAcceleration"
             >
@@ -23,15 +23,15 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>-->
+        </activity>
 
         <activity android:name=".ui.DownloadActivity"
             android:theme="@style/AppTheme.ChinaWidthHelp"
             >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+
+        <service android:name=".Service.MessengerService"
+            android:process=":remote"
+            ></service>
     </application>
 </manifest>
